@@ -1,3 +1,4 @@
+/* nav mobile begynder */
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,6 +81,7 @@ a{
     max-height: 240px;
 }
 
+/* nav desktop begynder */
 @media (min-width:800px) {
     .header li{
         float: left;
@@ -98,4 +100,35 @@ a{
     .header .menu-icon{
         display: none;
     }
+}
+
+/* footer begynder */
+
+.footer{
+    position: sticky;
+    top: 100%;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #D4C5E3;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    display:flex;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    position:relative
 }
