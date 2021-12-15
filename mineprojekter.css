@@ -1,1 +1,250 @@
+body{
+   background-color: #eeddfd; 
+}
 
+
+@media (max-width: 430px) {
+    .logo{
+        width: 45%;
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titel-mineprojekter{
+        font-weight: normal;
+        text-decoration: underline;
+        font-size: 25px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .titel-legmedlogo{
+        font-weight: normal;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .img-legmedlogo{
+        width: 70%;
+        height: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tekst-legmedlogo{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;;
+    }
+
+    .border1{
+        width: 100%;
+        height: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -130px
+    }
+
+    .titel-bb{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .img-plakat{
+        width: 70%;
+        height: 52%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tekst-plakat{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .app-gif{
+        width: 50%;
+        height: 48%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 50px;
+    }
+
+    .tekst-app-gif{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;;  
+    }
+
+    .desktop-gif{
+        width: 70%;
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 50px;
+    }
+
+    .tekst-desktop-gif{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .img-instastory{
+        width: 53%;
+        height: 52%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+    }
+
+    .tekst-instastory{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border2{
+        width: 100%;
+        height: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -130px
+    }
+
+    .titel-rwp{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .img-rwp1{
+        width: 65%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .img-rwp2{
+        width: 65%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    .img-rwp3{
+        width: 65%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    .tekst-rwp{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border3{
+        width: 100%;
+        height: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -130px
+    }
+    
+    .titel-valby{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .img-valby1{
+        width: 70%;
+        height: 35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-valby2{
+        width: 55%;
+        height: 35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .tekst-valby{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border4{
+        width: 100%;
+        height: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -130px
+    }
+
+    .titel-flydendebjerge{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .img-flydendebjerge{
+        width: 70%;
+        height: 27%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tekst-flydendebjerge{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border5{
+        width: 100%;
+        height: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -130px;
+        margin-bottom: -80px;
+    }
+
+}
