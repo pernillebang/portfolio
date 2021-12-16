@@ -1,8 +1,17 @@
+/* Assets til generel brug på siden */
 body{
    background-color: #eeddfd; 
 }
 
-
+/* Mobile version starter */
+.pil-ned{
+    width: 20%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
 
     .logo{
         width: 45%;
@@ -10,6 +19,7 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        padding: 20px;
     }
 
     .titel-mineprojekter{
@@ -18,12 +28,14 @@ body{
         font-size: 25px;
         text-align: center;
         margin-top: -10px;
+        color: #1B1A1F;
     }
 
     .titel-legmedlogo{
         font-weight: normal;
         text-align: center;
-        margin-top: 90px;
+        margin-top: 30px;
+        color: #1B1A1F;
     }
 
     .img-legmedlogo{
@@ -38,7 +50,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;;
+        margin-top: -6px;
+        color: #2E466B;
     }
 
     .border1{
@@ -47,13 +60,14 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -130px
+        margin-top: -90px
     }
 
     .titel-bb{
         font-weight: normal;
         text-align: center;
-        margin-top: -90px;
+        margin-top: -70px;
+        color: #1B1A1F;
     }
 
     .img-plakat{
@@ -68,7 +82,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;; 
+        margin-top: -6px;
+        color: #2E466B; 
     }
 
     .app-gif{
@@ -84,7 +99,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;;  
+        margin-top: -6px;
+        color: #2E466B;   
     }
 
     .desktop-gif{
@@ -100,7 +116,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;; 
+        margin-top: -6px;
+        color: #2E466B;  
     }
 
     .img-instastory{
@@ -116,7 +133,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;; 
+        margin-top: -6px;
+        color: #2E466B;  
     }
 
     .border2{
@@ -125,13 +143,14 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -130px
+        margin-top: -90px
     }
 
     .titel-rwp{
         font-weight: normal;
         text-align: center;
-        margin-top: -90px;
+        margin-top: -70px;
+        color: #1B1A1F;
     }
 
     .img-rwp1{
@@ -165,7 +184,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;; 
+        margin-top: -6px;
+        color: #2E466B;  
     }
 
     .border3{
@@ -174,13 +194,14 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -130px
+        margin-top: -90px
     }
     
     .titel-valby{
         font-weight: normal;
         text-align: center;
-        margin-top: -90px;
+        margin-top: -70px;
+        color: #1B1A1F;
     }
 
     .img-valby1{
@@ -204,7 +225,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;; 
+        margin-top: -6px;
+        color: #2E466B;  
     }
 
     .border4{
@@ -213,13 +235,14 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -130px
+        margin-top: -90px
     }
 
     .titel-flydendebjerge{
         font-weight: normal;
         text-align: center;
-        margin-top: -90px;
+        margin-top: -70px;
+        color: #1B1A1F;
     }
 
     .img-flydendebjerge{
@@ -234,7 +257,8 @@ body{
         font-size: 13px;
         padding: 10px;
         text-align:center;
-        margin-top: -6px;; 
+        margin-top: -6px;
+        color: #2E466B;  
     }
 
     .border5{
@@ -243,12 +267,32 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -130px;
+        margin-top: -90px;
         margin-bottom: -80px;
     }
 
+    .pil-op{
+        width: 35%;
+        height: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2px;
+    }
 
+
+/* tablet version starter */    
 @media screen and (min-width:440px) and (max-width:800px) {
+    
+    .pil-ned{
+        width: 20%;
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -190px;
+    }
+
     .logo{
         width: 70%;
         height: 80%;
@@ -497,7 +541,280 @@ body{
         margin-top: -100px;
     }
 
-
-
+    .pil-op{
+        width: 20%;
+        height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2px;
+    }
+}
+/* desktop version starter */
+@media screen and (min-width:810px) {
     
+    .pil-ned{
+        width: 15%;
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -250px;
+    }
+    
+    .logo{
+        width: 50%;
+        height: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    } 
+
+    .titel-mineprojekter{
+        font-weight: normal;
+        text-decoration: underline;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .titel-legmedlogo{
+        font-weight: normal;
+        text-align: center;
+        margin-top: 80px;
+        font-size: 25px;
+    }
+
+    .img-legmedlogo{
+        width: 60%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tekst-legmedlogo{
+        font-size: 15px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;;
+    }
+
+    .border1{
+        width: 90%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px
+    }
+
+    .titel-bb{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -70px;
+        font-size: 25px;
+    }
+
+    .img-plakat{
+        width: 40%;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tekst-plakat{
+        font-size: 13px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .app-gif{
+        width: 38%;
+        height: 105%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 50px;
+    }
+
+    .tekst-app-gif{
+        font-size: 14px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;;  
+    }
+
+    .desktop-gif{
+        width: 50%;
+        height: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 50px;
+    }
+
+    .tekst-desktop-gif{
+        font-size: 14px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .img-instastory{
+        width: 28%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+    }
+
+    .tekst-instastory{
+        font-size: 14px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border2{
+        width: 90%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px
+    }
+
+    .titel-rwp{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -70px;
+        font-size: 25px;
+    }
+
+    .img-rwp1{
+        width: 40%;
+        height: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .img-rwp2{
+        width: 40%;
+        height: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .img-rwp3{
+        width: 40%;
+        height: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .tekst-rwp{
+        font-size: 15px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border3{
+        width: 90%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px
+    }
+
+    .titel-valby{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -70px;
+        font-size: 25px;
+    }
+
+    .img-valby1{
+        width: 55%;
+        height: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-valby2{
+        width: 35%;
+        height: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .tekst-valby{
+        font-size: 14px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;; 
+    }
+
+    .border4{
+        width: 90%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px
+    }
+
+    .titel-flydendebjerge{
+        font-weight: normal;
+        text-align: center;
+        margin-top: -70px;
+        font-size: 25px;
+    }
+
+    .img-flydendebjerge{
+        width: 56%;
+        height: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tekst-flydendebjerge{
+        font-size: 14px;
+        padding: 10px;
+        text-align:center;
+        margin-top: -6px;;
+    }
+
+    .border5{
+        width: 90%;
+        height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px
+    }
+
+    .pil-op{
+        width: 15%;
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2px;
+    }
 }
